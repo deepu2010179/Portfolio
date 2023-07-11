@@ -24,6 +24,7 @@ body{
 }
 .header-image img{
     border-radius: 50px 20px;
+    width: 60vh;
 }
 .header-image img,.about-col-1 img{
     transition: transform .4s;
@@ -46,9 +47,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
-}
-.logo{
-    width: 140px;
 }
 nav ul li{
     display: inline-block;
@@ -93,6 +91,9 @@ nav ul li a:hover::after{
                           2px 2px 0 #000,
                          2px -2px 0 #000,
                         -2px -2px 0 #000;
+}
+.header-image img{
+    width: 60vh;
 }
 /*--------------------about---------------------*/
 #about{
@@ -174,44 +175,40 @@ nav ul li a:hover::after{
 }
 
 /* --------------------services-------------------- */
-#services{
+#certificates{
     padding: 30px 0;
-
 }
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+.certificate img{
+    width: 100vh;
+    margin-top: 5%;
+    display: block;
+    border-radius: 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .4s;
 }
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-
+.certificate img:hover{
+    -ms-transform: scale(0.9); 
+    -webkit-transform: scale(0.9); 
+    transform: scale(1.1);
 }
-.services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-
+.certificate1 img{
+    width: 80vh;
+    margin-top: 5%;
+    display: block;
+    border-radius: 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .4s;
 }
-.services-list div h2{
-    font-size: 30px;
-    font-weight: 300;
+.certificate1 img:hover{
+    -ms-transform: scale(0.9); 
+    -webkit-transform: scale(0.9); 
+    transform: scale(1.1);
 }
-.services-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.services-list div:hover{
-    background: rgb(247, 76, 247);
-    transform: translateY(-10px);
+.cert{
+    color: rgb(247, 76, 247);
+    margin-top: 5%;
 }
 /*-------------------------portfolio-----------------------------*/
 #portfolio{

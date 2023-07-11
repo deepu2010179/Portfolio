@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(images/background.webp);
+    background-image: url(background.webp);
     color: #fff;
 }
 #header{

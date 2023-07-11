@@ -252,6 +252,9 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 
 }
+.coding{
+    display: flex;
+}
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
